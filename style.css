@@ -14,12 +14,13 @@ body {
 }
 
 button {
-    height: 40px;
-    width: 70px;
+    height: 50px;
+    width: 100%;
     font-size: 15px;
     border: none;
     border-radius: 5px;
-    background-color: #f1f1f1;
+    background-color: black;
+    color: antiquewhite;
 }
 
 button:hover {background-color: darkslategray}
@@ -30,21 +31,31 @@ button:active {
     transform: translasteY(4px);
 }
 #calculator {
-    width: 300px;
-    border: 1px solid #ccc;
+    width: 250px;
+    height: 273px;
     border-radius: 5px;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: conic-gradient(
+        #fd004c,
+        #fe9000,
+        #fff020,
+        #3edf4b,
+        #3363ff, 
+        #b102b7,
+        #fd004c
+    );
 }
 
 .display {
     height: 60px;
     text-align: right;
-    font-size: 24px;
-    background-color: #f9f9f9;
+    font-size: 30px;
+    background-color: black;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 5px;
     overflow: auto;
+    color: white;
 }
